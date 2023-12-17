@@ -7,6 +7,8 @@ if(shoppingDone === true){
 };
 console.log(allowance);//bc shoppingDone is false it jumps over the first statement'
 
+//////////////////
+
 //en lång conditional kod
 function howFast (number){
 if(number === 100){
@@ -22,4 +24,30 @@ if(number === 100){
 console.log(howFast(20)); // Ska logga "Slow"
 console.log(howFast(50)); // Ska logga "Medium"
 console.log(howFast(100)); // Ska logga "Fast"
-console.log(howFast(25)); // Ska logga "Unknown"
+console.log(howFast(25)); // Ska logga "Unknown"'
+
+/////////////////
+
+let veganMilk = "Oatly";
+if("Arla" === veganMilk){
+    console.log("this is not vegan");
+}else if ("Oatly"=== veganMilk){
+    console.log("this is vegan!");
+} else {
+    console.log("i don't know");
+};
+
+console.log(veganMilk);
+
+
+/////////////////
+function fever(temp){
+    let result;
+    if (temp > 37.8){
+       return "High fever"; //skriv resultat=, return eller console
+    }else{
+    result = "no fever";
+    };
+    return result; //glöm ej returna
+};
+console.log(fever(39));
