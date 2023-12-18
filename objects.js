@@ -20,6 +20,7 @@ console.log(person.name);
 console.log(person.hi());
 console.log(person.fullName);
 console.log(person["fullName"]["first"]);
+
 //Changing or adding obj
 person.name[0] = ["Hanna"];
 console.log(person.name);

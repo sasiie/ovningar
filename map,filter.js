@@ -86,7 +86,6 @@ function calculateTotalPrice2(shoppingCart, prices) {
   });
   return sum;
 }
-
 console.log(calculateTotalPrice2(shoppingCart, modelPrices)); // Ska logga 550
 
 //find the even numbers in the array of numbers. First create a function, use filter(arrowfunc),
@@ -98,7 +97,7 @@ function filterEvenNumbers(numbers) {
   return filteredNumbers;
 }
 let numbers = [100, 45, 3, 50];
-console.log(filterEvenNumbers(numbers));
+console.log(filterEvenNumbers(numbers)); //[100, 50]
 
 
 
@@ -114,13 +113,20 @@ console.log(countriesWithoutI(countries));
 
 
 
-
-
-const multipliedBy2 = (arr) => arr.map((num) => num * 2);
+//
 let numbers3 = [1, 6, 78];
+const multipliedBy2 = (arr) => arr.map((num) => num * 2);
 console.log(multipliedBy2(numbers3));
 
-
+// 2.1 (2p) Använd filter för att filtrera numbers och
+// skapa en ny array med alla tal som är mindre än 50.
+// Den nya arrayen ska sparas i en variabel som heter smallerThan50.
+const numbers4 = [200, 54, 582, 33, 4];
+const higherThan50 = numbers4.filter((num) => { //[MAP VISAR VILKA SOM ÄR SANT ELLER FALSKT]
+return num > 50;
+})
+console.log(higherThan50);
+   
 
 
 const products5 = [

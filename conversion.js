@@ -1,9 +1,10 @@
+// dela på orden
 let radic = "Sara,Iva,Bozana,Filip,Jure";
-
 let toArray = radic.split(",");
 console.log(toArray); //["Sara", "Iva", "Bozana", "Filip", "Jure"]
 console.log(toArray[0]); // Sara
 
+//Joina alla igen
 let toString = toArray.join(",");
 console.log(toString);
 
@@ -24,9 +25,6 @@ myArray.forEach(function (element, index) {
   myArray[index] = `${element} (${index})`;
 });
 let newArray = myArray.join("-");
-// myArray.forEach(function( name, index) {
-//     let newName = ${name}${index};
-// });
 
 console.log(myArray);
 console.log(newArray);

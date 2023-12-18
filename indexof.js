@@ -2,6 +2,6 @@
 const birds = ["Parrots", "Falcons", "Eagles", "Emus", "Caracaras", "Egrets"];
 let removeItem = birds.indexOf("Eagles");
 birds.splice(removeItem, 1);
-console.log(birds);
+console.log(birds); //["Parrots", "Falcons", "Emus", "Caracaras", "Egrets"]
 
 

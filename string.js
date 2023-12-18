@@ -62,7 +62,11 @@ cat.greeting = () => {
   const cat3 = new Cat3("Garo", "black", "babyyy");
   cat3.greeting();
 
+// 1.1 (2p) Använd forEach för att lägga ihop orden i words-arrayen till ett långt ord
+// som sparas i variabeln myWord. JOIN!!!!!!!!
+let myWord = "";
+const words = ["programming", "is", "fun"];
 
+words.forEach((word) => (myWord += word));
 
-
-
+console.log(myWord); // Ska logga: "programmingisfun";
