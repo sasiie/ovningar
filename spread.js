@@ -12,7 +12,7 @@ const person = {
 
   function uppdatePerson(person, adress){
     return {...person, adress:{
-        ...person.adress,...newAdress}
+        ...person.adress,...newAdress},{...}
     }
   };
   const newAdress = {
